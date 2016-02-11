@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Generate random NPCs at will">
+
+  <title>Rando Cardrissian Generator</title>
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="css/layouts/blog.css">
+  <!--<![endif]-->
+</head>
+<body>
+  <div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+      <div class="header">
+        <h1 class="brand-title">Rando Cardrissian Generator</h1>
+        <h2 class="brand-tagline">Creating Random NPCs of tomorrow, Today!</h2>
+      </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+      <div>
+        <!-- A wrapper for all the blog posts -->
+        <div class="posts">
+          <h1 class="content-subhead">
+            <p>
+              <button  class="pure-button pure-button-primary" onclick="generateCharacter()">Generate Character</button>
+            </p>
+          </h1>
+
+          <!-- A single blog post -->
+          <section class="post">
+            <header class="post-header">
+              <img class="post-avatar" id='classSymbol' alt="class avatar" height="48" width="48">
+
+              <h2 class="post-title" id="characterName"></h2>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Background:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <h3><p id="background-type">
+                  </p></h3>
+                </div>
+              </div>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Quirks:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <h3><p id="background-quirks">
+                  </p></h3>
+                </div>
+              </div>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Their Story:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <p id="background-description">
+                  </p>
+                </div>
+              </div>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Feature:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <p id="background-feature">
+                  </p>
+                </div>
+              </div>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Trait:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <p id="background-trait">
+                  </p>
+                </div>
+              </div>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Ideal:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <p id="background-ideal">
+                  </p>
+                </div>
+              </div>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Bond:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <p id="background-bond">
+                  </p>
+                </div>
+              </div>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Flaw:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <p id="background-flaw">
+                  </p>
+                </div>
+              </div>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Skills:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <p id="background-skills">
+                  </p>
+                </div>
+              </div>
+              <div class="pure-g">
+                <div class="pure-u-1-5">
+                  <p>
+                    <h2>Equipment:</h2>
+                  </p>
+                </div>
+                <div class="pure-u-5-5">
+                  <p id="background-equipment">
+                  </p>
+                </div>
+              </div>
+              <p class="post-meta">
+                By <a href="#" class="post-author">Paul Moreau</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a>
+              </p>
+            </header>
+          </section>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="pure-menu pure-menu-horizontal">
+          <ul>
+            <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">About</a></li>
+            <li class="pure-menu-item"><a href="http://twitter.com/yuilibrary/" class="pure-menu-link">Twitter</a></li>
+            <li class="pure-menu-item"><a href="http://github.com/paulvmoreau" class="pure-menu-link">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="scripts/main.js"></script>
+</body>
+</html>
