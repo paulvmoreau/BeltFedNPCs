@@ -96,7 +96,6 @@ var getBackground = function(){
 var getRace = function(isPlural){
   var race = weightedRandomizer(races);
   if(isPlural){
-    console.log('looking for' +race);
     return racesPlural[race];
   }else{
     return race;
