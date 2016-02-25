@@ -177,7 +177,7 @@ var generateCharacter = function(){
   }
   console.log(data);
   document.getElementById('characterName').textContent = data.name +', the ' +data.gender +' ' +data.race +' ' + data.class;
-  document.getElementById('classSymbol').src = 'img/common/DnD5e_ClassSymb_'+data.class+'.jpg';
+  document.getElementById('classSymbol').src = 'img/common/DnD5E_ClassSymb_'+data.class+'.jpg';
   document.getElementById('background-type').textContent = data.backgroundType;
   document.getElementById('background-description').innerHTML = data.description;
   document.getElementById('background-skills').textContent = data.skillProficiencies;
