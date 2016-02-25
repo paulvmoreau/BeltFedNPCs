@@ -49,7 +49,7 @@
     },
     {
       "title": "Adventurer",
-      "description": " You never stopped following your profession- you have always been an adventurer for as long as you have had a profession.\n Examples:\n\t Maybe your parents were adventurers,\n\t maybe you were rescued by a group of adventurers who then raised you, \n\t maybe being an adventurer is a respectable profession in your homeland,\n\t maybe you ran away at a young age to become an adventurer,\n\t maybe you grew up in an adventurers guild hall,\n\t maybe you're just starting out new and fresh to the profession.\n \nWhatever the case is, you are willing and able to do work that nobody in their right mind would even consider. As an adventurer, you have likely traveled extensively, encountered violence and death, are comfortable around magic, and have likely seen many a strange, terrible, and wonderful thing. Many professional adventurers use a sort of professional slang or jargon resembling game terms, such as referring to people by their perceived \"level\", or ranking enemies by supposed \"challenge ratings\". What took you down this path, and where has it taken you? Are you pushed by some driving goal, or flee from some terrible thing? Or do you just go wherever the money flows? Are you an experienced party member, or are you more of the loner riding in the back of the cart? Were you trained up to be a professional, or did you learn by experience? What kinds of adventures have you had? What amazing sights have you seen? How have these experiences changed you?",
+      "description": "<origin>. You are willing and able to do work that nobody in their right mind would even consider. As an adventurer, you have likely traveled extensively, encountered violence and death, are comfortable around magic, and have likely seen many a strange, terrible, and wonderful thing. Many professional adventurers use a sort of professional slang or jargon resembling game terms, such as referring to people by their perceived \"level\", or ranking enemies by supposed \"challenge ratings\". What took you down this path, and where has it taken you? Are you pushed by some driving goal, or flee from some terrible thing? Or do you just go wherever the money flows? Are you an experienced party member, or are you more of the loner riding in the back of the cart? Were you trained up to be a professional, or did you learn by experience? What kinds of adventures have you had? What amazing sights have you seen? How have these experiences changed you? In the party, you were known as <partyrole>",
       "skillProficiencies": [
         "Athletics or Acrobatics, and",
         "Insight or Perception"
@@ -60,28 +60,45 @@
       ],
       "extras": [
         {
-          "partyRole": ["The Brains","The Muscle", "The Professional", "The Coin", "The Sneak", "The Load"]
+          "description": {
+            "origin":["Your parents were adventurers",
+              "You were rescued by a group of adventurers who then raised you",
+              "Being an adventurer is a respectable profession in your homeland",
+              "You ran away at a young age to become an adventurer",
+              "You grew up in an adventurers guild hall",
+              "You're just starting out new and fresh to the profession.",
+              "You have always been an adventurer for as long as you have had a profession"
+            ],
+            "partyrole": [
+              "The Brains",
+              "The Muscle",
+              "The Professional",
+              "The Coin",
+              "The Sneak",
+              "The Load"
+            ]
+          }
         }
       ],
       "equipment": "One weapon or armor worth no more than 10 gp, a set of traveler's clothes, a small pouch containing 5gp, a shovel, a crowbar, one trophy, (such as a trinket from PHB p.160) one cloak, and a bedroll",
       "feature": "Beloved Outcast - You can always find a job, but somehow you can never find a place to sleep. People know you`re good for the work, but the fact that you are indicates that you`re probably not the sort of person they want to have around. People view adventurers in a mixed light with conflicting values. On the one hand, most adventurers are nothing more than murderous, grave-robbing vagrants. On the other hand, who else will rob that grave and murder those local bullies for you? Most common folk consider adventurers to be dangerous, unpredictable, and probably insane... But in a world filled with slavers, mad cults, dragons, walking dead, pit fiends, and extradimensional horrors, just about everyone could find a use for a psychotic sell-sword. Adventurers who survive and reach higher renown may find they have a small following of supporters or fans, but even they may cringe at the idea of that adventurer spending an evening in their home. Most adventurers by profession are members of an adventurers guild through which they can readily attain professional work and contacts in the field.",
       "personalityTrait": [
-      "I speak with an accent nobody recognizes.",
-      "I look at the ceiling every time I enter a room, even if I was just there five seconds ago.",
-      "I assume every job is a trap.",
-      "I take notes about everyone and everything I encounter everywhere I go.",
-      "I leave marks for myself wherever I go, as messages to myself when I return. Their meaning is known only by me.",
-      "I tell stories about my adventures to anyone who will listen. Even tales of woe and disaster are retold with enthusiasm!",
-      "I am more accustomed to life on the road or underground than in a settlement or my actual \"home\".",
-      "I only respect other adventurers."
+        "I speak with an accent nobody recognizes.",
+        "I look at the ceiling every time I enter a room, even if I was just there five seconds ago.",
+        "I assume every job is a trap.",
+        "I take notes about everyone and everything I encounter everywhere I go.",
+        "I leave marks for myself wherever I go, as messages to myself when I return. Their meaning is known only by me.",
+        "I tell stories about my adventures to anyone who will listen. Even tales of woe and disaster are retold with enthusiasm!",
+        "I am more accustomed to life on the road or underground than in a settlement or my actual \"home\".",
+        "I only respect other adventurers."
       ],
       "ideal": [
-      "Virtue. I am the sword of virtue for those in need! (Good)",
-      "Curiosity. If the job is interesting, I'm in! (Neutral)",
-      "Control. I'll do the work, but some day I will return with a request... (Evil)",
-      "Justice. I fill the cracks crime slips through. (Lawful)",
-      "Wealth. I'm in it for the money! (Neutral)",
-      "Boredom. Get me away from this boring life! (Chaotic)"
+        "Virtue. I am the sword of virtue for those in need! (Good)",
+        "Curiosity. If the job is interesting, I'm in! (Neutral)",
+        "Control. I'll do the work, but some day I will return with a request... (Evil)",
+        "Justice. I fill the cracks crime slips through. (Lawful)",
+        "Wealth. I'm in it for the money! (Neutral)",
+        "Boredom. Get me away from this boring life! (Chaotic)"
       ],
       "bond": [
         "The things I have with me are everything I have and everything I am.",
@@ -100,6 +117,70 @@
         "I cannot manage money to save my life."
       ],
       "credit": "https://www.dandwiki.com/wiki/Adventurer_(5e_Background)"
+    },
+    {
+      "title": "Almost the Chosen One",
+      "description": "Thousands of years ago a prophecy foretold of the person that would bring light and justice to the world. Being born under just the right combination of stars, with the perfect birthmark, and an odd color to their eyes and it's your twin sibling. You ran away because <runaway>",
+      "skillProficiencies": [
+        " I mean, it's your sibling that's important, not you. No ones cares, just pick two"
+      ],
+      "Tool Proficiencies": ["Any one of your choice"],
+      "languages": [
+        "Any one of your choice"
+      ],
+      "extras": [
+        {
+          "description": {
+            "runaway":[
+              "You want to prove to everyone that there's been a mistake and you're really the chosen one.",
+              "The family dog (the only one who cared about you) has recently passed.",
+              "Your true love set out after your sibling.",
+              "Your parents told you to start paying rent or leave.",
+              "You were involved in a horrible accident, and separated from your family. After months of travel you finally returned home and no one had noticed you were gone.",
+              "You really are a loser and you went off chasing your much cooler sibling."
+            ]
+          }
+        }
+      ],
+      "equipment": "Whatever your sibling didn't take: a second hand adventures kit, like 5 feet of rope, a bedroll that smells slightly of urine, five gold you found, a set of used common clothes, and none of your parents love",
+      "feature": "Sibling of the Chosen One - Due to the status of your sibling, people that recognize you as their sibling, will go out of their way to treat you better. Whether this treatment is because of respect for your sibling or fear of them. People often overlook your small crimes or mishaps as well. Quest givers could give you more money, better items, better quarters and even possibly a position of leadership. Although they do this only because they want you to introduce them to your sibling or that they fear them because of their illegal and evil actions and will want you to smooth things out with your sibling if need be. They do not care about you. They are simply using you to get closer to your sibling. You got abandonement Issues",
+      "personalityTrait": [
+        "I am just as capable as my sibling! I just have to believe in myself! (Note: You are clearly not as capable.)",
+        "If I accomplish enough amazing feats I can make mommy love me!",
+        "Maybe I can find someone tough to accomplish things for me.",
+        "I often pretend to be my sibling.",
+        "I am prone to complaining uncontrollably about the smallest things.",
+        "I automatically assume that everyone is better at everything than me. (In most cases this is correct.)",
+        "I would settle for a girlfriend.",
+        "I am used to being ignored."
+      ],
+      "ideal": [
+        "One day I'll make the world see that prophecies are bullshit. (Any)",
+        "Powerful people shouldn't bully me- I mean the weak. (Lawful)",
+        "One day I want to make my mommy love me.(Good)",
+        "I want to one day gather enough money to pay the rent on my old room. (Neutral)",
+        "If at first you don't succeed, it's probably 'cause you suck. (Chaotic)",
+        "If I can destroy the world before my sibling saves it then I'll finally prove they're not so great. (Evil)"
+      ],
+      "bond": [
+        "I want to kill my sibling and take their place.",
+        "I want to reclaim my true love from my sibling.",
+        "MOMMYYYYY!!!",
+        "If I can't get people to like me, maybe I can get animals to like me.",
+        "I can't let my companions find out how uncool I actually am.",
+        "One day I'll be important enough my sibling will remember my name!"
+      ],
+      "flaw": [
+        "Nothing matters except my mother's love.",
+        "I actually think I am the chosen one. (Note: You are absolutely not the chosen one and are probably going to be eaten by bears.)",
+        "I can't stand people I think are better than me.",
+        "I will desperately pursue every member of the opposite sex I encounter.",
+        "I secretly have deep attractions and feelings for my sibling.",
+        "I follow my sibling around the world ruining things they have fixed.",
+        "I will accept any challenge if it makes me seem cool.",
+        "I'm cowardly and often find myself running from battles, screaming for my sibling's help."
+      ],
+      "credit": "https://www.dandwiki.com/wiki/Almost_the_Chosen_One_(5e_Background)"
     }
   ]
 }

@@ -143,7 +143,21 @@ function weightedRandomizer(data){
 }
 
 var generateCharacter = function(){
-  var background = getBackground()
+  var background = getBackground();
+  if(typeof background.extras !== 'undefined'){
+    var extras = background.extras;
+    var select = '';
+    extras.forEach(function(extra, index){
+      for(var section in extra){
+        for(var substitute in extra[section]){
+          select = extra[section][substitute][Math.floor(Math.random()*extra[section][substitute].length)];
+          //search background[index] for '<substitute>' and replace with select.
+          var replacestr = '\<'+substitute+'\>';
+          background[section] = background[section].replace(replacestr, select);
+        }
+      };
+    });
+  }
   var data = {
     name: getName(),
     gender: getGender(),
