@@ -11,7 +11,7 @@ get collected together into a single file at compile.<br>
 <br>
 <br>
 Format for adding additional backgrounds to the backgrounds.json file:<br>
-<script>
+```json
 {
       "title": "Background Title",
       "description": "The introductory paragraph on the background. You can insert variable extras here by inserting <exampletag> and then including exampletag choices in the extras section. <otherexample>",
@@ -65,4 +65,4 @@ Format for adding additional backgrounds to the backgrounds.json file:<br>
       "credit": "If you did not write this background. Please credit the creator here. Also, please avoid using lisenced backgrounds that you do not have rights to publish. you can also credit yourself here if you did create this background."
     }
  </script>
-
+```
