@@ -64,5 +64,4 @@ Format for adding additional backgrounds to the backgrounds.json file:<br>
       ],
       "credit": "If you did not write this background. Please credit the creator here. Also, please avoid using lisenced backgrounds that you do not have rights to publish. you can also credit yourself here if you did create this background."
     }
- </script>
 ```
