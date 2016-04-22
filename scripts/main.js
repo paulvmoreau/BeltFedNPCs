@@ -24,9 +24,9 @@ function getJSON(url, cb){
 
 function loadAdditionalData(cb){
   getJSON('data/backgrounds.json', function(backgrounds, err){
-    additionalData.backgrounds = backgrounds.backgrounds;
+    additionalData.backgrounds = backgrounds;
     getJSON('data/names.json', function(names, err){
-      additionalData.names = names;
+      _.merge(additionalData, names);
       return cb(true, false);
     });
   });

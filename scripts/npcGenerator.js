@@ -75,23 +75,6 @@
    this.surnameone = [];
    this.surnametwo = [];
 
-   this.loadBackgrounds = function(callback){
-
-   };
-
-   this.loadNames = function(callback){
-     var xobj = new XMLHttpRequest();
-     xobj.overrideMimeType("application/json");
-     xobj.open('GET', 'data/names.json', true);
-     xobj.onreadystatechange = function () {
-       if (xobj.readyState == 4 && xobj.status == "200") {
-         // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-         callback(xobj.responseText);
-       }
-     };
-     xobj.send(null);
-   };
-
    this.getBackground = function(){
      return this.backgrounds[Math.floor(Math.random()*this.backgrounds.length)];
    };
@@ -131,7 +114,8 @@
    };
 
    this.generateCharacter = this.generate; //alias for compatibility
-   this.generate = function(){
+   this.generate = function(overrides){
+
      var background = this.getBackground();
      if(typeof background.extras !== 'undefined'){
        var extras = background.extras;
@@ -165,25 +149,9 @@
        flaw: background.flaw[Math.floor(Math.random()*background.flaw.length)],
      };
 
+    _.merge(data, overrides);
     return data;
   };
-
-  var self = this;
-  //populate backgrounds and names
-  this.loadBackgrounds(function(response) {
-    console.log('Loading backgrounds');
-    // Parse JSON string into object
-    self.backgrounds = JSON.parse(response).backgrounds;
-    console.log(self);
-  });
-
-  this.loadNames(function(response) {
-    // Parse JSON string into object
-    var formattedResponse = JSON.parse(response);
-    self.firstNames = formattedResponse.firstNames;
-    self.surnameone = formattedResponse.surnameone;
-    self.surnametwo = formattedResponse.surnametwo;
-  });
 
   _.merge(this, sources);
  }
