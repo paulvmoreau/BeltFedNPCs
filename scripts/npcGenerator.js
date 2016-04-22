@@ -19,7 +19,7 @@
   }
 }
 
- function NPCGenerator(){
+ function NPCGenerator(sources){
 
    //race
    this.races = {
@@ -33,6 +33,7 @@
      'Half-Elf':10,
      'Half-Orc':10
    };
+
    this.racesPlural ={
      'Human' : 'Humans',
      'Elf' :'Elves',
@@ -192,4 +193,6 @@
     self.surnameone = formattedResponse.surnameone;
     self.surnametwo = formattedResponse.surnametwo;
   });
+
+  _.merge(this, sources);
  }
