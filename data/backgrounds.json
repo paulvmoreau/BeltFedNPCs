@@ -180,5 +180,83 @@
       "I'm cowardly and often find myself running from battles, screaming for my sibling's help."
     ],
     "credit": "https://www.dandwiki.com/wiki/Almost_the_Chosen_One_(5e_Background)"
+  },
+  {
+    "title": "Guild Graduate",
+    "description": "Am I qualified? I most certainly am! Do I have experience? <experience>",
+    "skillProficiencies": [
+      "Optional proficiency relating to <subjectmatter>"
+    ],
+    "Tool Proficiencies": [
+      "Calligraphy"
+    ],
+    "languages": [
+      3
+    ],
+    "extras": [
+      {
+        "description": {
+          "experience": [
+            "I never did pay much attention in class.",
+            "I've probably read about it!",
+            "Define: Experience...",
+            "Practice makes perfect. Practicing is kind of like experience right?",
+            "I've been on a couple ride-alongs.",
+            "I wrote the books on it."
+          ],
+          "subjectmatter": [
+            "Occult",
+            "Dragon Lore",
+            "Law",
+            "Trade Goods",
+            "Illussion Magic",
+            "Destruction Magic",
+            "Life Magic",
+            "Death Magic",
+            "Religion & Myths",
+            "War History",
+            "Elven History",
+            "Dwarven History",
+            "Drow History",
+            "Orc History",
+            "Tiefling History",
+            "Local History",
+            "Beasts and Animals",
+            "Steampunk Robotics",
+            "Shapeshifting",
+            "Jewelry & Gemstones",
+            "Art Appraisal"
+          ]
+        }
+      }
+    ],
+    "equipment": "Pen & Quill, Diary, Scrolls on studied subject matter",
+    "feature": "Subject matter expert. Advantage on History and Arcana knowledge checks. Including Insight checks if relating to the function of a device.",
+    "personalityTrait": [
+      "Up to the eyeballs in debt.",
+      "Has an exam coming up. Need to study!",
+      "Has won many awards for hard work in <subjectmatter>."
+    ],
+    "ideal": [
+      "Happiness and peace can be achieved through knowledge. The secret must be somewhere in these texts... (Good)",
+      "One day I'll be a professor just like my father and his father before him.(Neutral)",
+      "Knowledge is power and with that power I'll be calling the shots. (Evil)",
+      "For the good of my kingdom I must master my pursuits and use my knowledge for the betterment of it's people.(Lawful)",
+      "Knowledge should be shared and free to everyone. Where there are secrets I must document them and unveil the truth. (Neutral)",
+      "They don't want you to know, but the stories are true. All of them. I'll get to the bottom of this!(Chaotic)"
+    ],
+    "bond": [
+      "I'm not a just a nerd and I'm out to prove it.",
+      "Collector of things. Bring me anything related to <subjectmatter> and I'll make it worth your while.",
+      "One day I'll be the one people read about."
+    ],
+    "flaw": [
+      "My passion in my work is more important than anything and anyone else.",
+      "Banished from my guild one day I'll have my revenge.",
+      "Comes off as that crazy person reading to themselves out loud in the corner of the library.",
+      "Totally faking it. Educated guesses and flying by the seat of my pants."
+    ],
+    "credit": "Joe Wroten (sharpshark28@gmail.com)"
   }
 ]
+}
