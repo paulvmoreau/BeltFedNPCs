@@ -1,263 +1,262 @@
-{
-  "backgrounds": [
-    {
-      "title": "Acolyte",
-      "description": "You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.",
-      "skillProficiencies": [
-        "Insight",
-        "Religion"
-      ],
-      "languages": [
-        2
-      ],
-      "equipment": "A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a pouch containing 15 gp",
-      "feature": "Shelter of the Faithful - As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle. You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.",
-      "personalityTrait": [
-        "I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example.",
-        "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.",
-        "I see omens in every event and action. The gods try to speak to us, we just need to listen",
-        "Nothing can shake my optimistic attitude.",
-        "I quote (or misquote) sacred texts and proverbs in almost every situation",
-        "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods",
-        "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.",
-        "I’ve spent so long in the temple that I have little practical experience dealing with people in the outside world."
-      ],
-      "ideal": [
-        "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)",
-        "Charity. I always try to help those in need, no matter what the personal cost. (Good)",
-        "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
-        "Power. I hope to one day rise to the top of my faith’s religious hierarchy. (Lawful)",
-        "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)",
-        "Aspiration. I seek to prove myself worthy of my god’s favor by matching my actions against his or her teachings. (Any)"
-      ],
-      "bond": [
-        "I would die to recover an ancient relic of my faith that was lost long ago.",
-        "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
-        "I owe my life to the priest who took me in when my parents died",
-        "Everything I do is for the common people.",
-        "I will do anything to protect the temple where I served.",
-        "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
-      ],
-      "flaw": [
-        "I judge others harshly, and myself even more severely.",
-        "I put too much trust in those who wield power within my temple’s hierarchy.",
-        "My piety sometimes leads me to blindly trust those that profess faith in my god.",
-        "I am inflexible in my thinking.",
-        "I am suspicious of strangers and expect the worst of them.",
-        "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
-      ]
-    },
-    {
-      "title": "Adventurer",
-      "description": "<origin>. You are willing and able to do work that nobody in their right mind would even consider. As an adventurer, you have likely traveled extensively, encountered violence and death, are comfortable around magic, and have likely seen many a strange, terrible, and wonderful thing. Many professional adventurers use a sort of professional slang or jargon resembling game terms, such as referring to people by their perceived \"level\", or ranking enemies by supposed \"challenge ratings\". What took you down this path, and where has it taken you? Are you pushed by some driving goal, or flee from some terrible thing? Or do you just go wherever the money flows? Are you an experienced party member, or are you more of the loner riding in the back of the cart? Were you trained up to be a professional, or did you learn by experience? What kinds of adventures have you had? What amazing sights have you seen? How have these experiences changed you? In the party, you were known as <partyrole>",
-      "skillProficiencies": [
-        "Athletics or Acrobatics, and",
-        "Insight or Perception"
-      ],
-      "Tool Proficiencies": ["Thief's Tools"],
-      "languages": [
-        "two exotic languages"
-      ],
-      "extras": [
-        {
-          "description": {
-            "origin":["Your parents were adventurers",
-              "You were rescued by a group of adventurers who then raised you",
-              "Being an adventurer is a respectable profession in your homeland",
-              "You ran away at a young age to become an adventurer",
-              "You grew up in an adventurers guild hall",
-              "You're just starting out new and fresh to the profession.",
-              "You have always been an adventurer for as long as you have had a profession"
-            ],
-            "partyrole": [
-              "The Brains",
-              "The Muscle",
-              "The Professional",
-              "The Coin",
-              "The Sneak",
-              "The Load"
-            ]
-          }
+[
+  {
+    "title": "Acolyte",
+    "description": "You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.",
+    "skillProficiencies": [
+      "Insight",
+      "Religion"
+    ],
+    "languages": [
+      2
+    ],
+    "equipment": "A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a pouch containing 15 gp",
+    "feature": "Shelter of the Faithful - As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle. You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.",
+    "personalityTrait": [
+      "I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example.",
+      "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.",
+      "I see omens in every event and action. The gods try to speak to us, we just need to listen",
+      "Nothing can shake my optimistic attitude.",
+      "I quote (or misquote) sacred texts and proverbs in almost every situation",
+      "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods",
+      "I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.",
+      "I’ve spent so long in the temple that I have little practical experience dealing with people in the outside world."
+    ],
+    "ideal": [
+      "Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)",
+      "Charity. I always try to help those in need, no matter what the personal cost. (Good)",
+      "Change. We must help bring about the changes the gods are constantly working in the world. (Chaotic)",
+      "Power. I hope to one day rise to the top of my faith’s religious hierarchy. (Lawful)",
+      "Faith. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)",
+      "Aspiration. I seek to prove myself worthy of my god’s favor by matching my actions against his or her teachings. (Any)"
+    ],
+    "bond": [
+      "I would die to recover an ancient relic of my faith that was lost long ago.",
+      "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
+      "I owe my life to the priest who took me in when my parents died",
+      "Everything I do is for the common people.",
+      "I will do anything to protect the temple where I served.",
+      "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+    ],
+    "flaw": [
+      "I judge others harshly, and myself even more severely.",
+      "I put too much trust in those who wield power within my temple’s hierarchy.",
+      "My piety sometimes leads me to blindly trust those that profess faith in my god.",
+      "I am inflexible in my thinking.",
+      "I am suspicious of strangers and expect the worst of them.",
+      "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+    ]
+  },
+  {
+    "title": "Adventurer",
+    "description": "<origin>. You are willing and able to do work that nobody in their right mind would even consider. As an adventurer, you have likely traveled extensively, encountered violence and death, are comfortable around magic, and have likely seen many a strange, terrible, and wonderful thing. Many professional adventurers use a sort of professional slang or jargon resembling game terms, such as referring to people by their perceived \"level\", or ranking enemies by supposed \"challenge ratings\". What took you down this path, and where has it taken you? Are you pushed by some driving goal, or flee from some terrible thing? Or do you just go wherever the money flows? Are you an experienced party member, or are you more of the loner riding in the back of the cart? Were you trained up to be a professional, or did you learn by experience? What kinds of adventures have you had? What amazing sights have you seen? How have these experiences changed you? In the party, you were known as <partyrole>",
+    "skillProficiencies": [
+      "Athletics or Acrobatics, and",
+      "Insight or Perception"
+    ],
+    "Tool Proficiencies": ["Thief's Tools"],
+    "languages": [
+      "two exotic languages"
+    ],
+    "extras": [
+      {
+        "description": {
+          "origin":["Your parents were adventurers",
+            "You were rescued by a group of adventurers who then raised you",
+            "Being an adventurer is a respectable profession in your homeland",
+            "You ran away at a young age to become an adventurer",
+            "You grew up in an adventurers guild hall",
+            "You're just starting out new and fresh to the profession.",
+            "You have always been an adventurer for as long as you have had a profession"
+          ],
+          "partyrole": [
+            "The Brains",
+            "The Muscle",
+            "The Professional",
+            "The Coin",
+            "The Sneak",
+            "The Load"
+          ]
         }
-      ],
-      "equipment": "One weapon or armor worth no more than 10 gp, a set of traveler's clothes, a small pouch containing 5gp, a shovel, a crowbar, one trophy, (such as a trinket from PHB p.160) one cloak, and a bedroll",
-      "feature": "Beloved Outcast - You can always find a job, but somehow you can never find a place to sleep. People know you`re good for the work, but the fact that you are indicates that you`re probably not the sort of person they want to have around. People view adventurers in a mixed light with conflicting values. On the one hand, most adventurers are nothing more than murderous, grave-robbing vagrants. On the other hand, who else will rob that grave and murder those local bullies for you? Most common folk consider adventurers to be dangerous, unpredictable, and probably insane... But in a world filled with slavers, mad cults, dragons, walking dead, pit fiends, and extradimensional horrors, just about everyone could find a use for a psychotic sell-sword. Adventurers who survive and reach higher renown may find they have a small following of supporters or fans, but even they may cringe at the idea of that adventurer spending an evening in their home. Most adventurers by profession are members of an adventurers guild through which they can readily attain professional work and contacts in the field.",
-      "personalityTrait": [
-        "I speak with an accent nobody recognizes.",
-        "I look at the ceiling every time I enter a room, even if I was just there five seconds ago.",
-        "I assume every job is a trap.",
-        "I take notes about everyone and everything I encounter everywhere I go.",
-        "I leave marks for myself wherever I go, as messages to myself when I return. Their meaning is known only by me.",
-        "I tell stories about my adventures to anyone who will listen. Even tales of woe and disaster are retold with enthusiasm!",
-        "I am more accustomed to life on the road or underground than in a settlement or my actual \"home\".",
-        "I only respect other adventurers."
-      ],
-      "ideal": [
-        "Virtue. I am the sword of virtue for those in need! (Good)",
-        "Curiosity. If the job is interesting, I'm in! (Neutral)",
-        "Control. I'll do the work, but some day I will return with a request... (Evil)",
-        "Justice. I fill the cracks crime slips through. (Lawful)",
-        "Wealth. I'm in it for the money! (Neutral)",
-        "Boredom. Get me away from this boring life! (Chaotic)"
-      ],
-      "bond": [
-        "The things I have with me are everything I have and everything I am.",
-        "The people who raised me made me into an adventurer.",
-        "I am on a quest to obtain some rare or important object.",
-        "I can never linger anywhere for too long, or my secret will catch up to me.",
-        "I cannot remember my past before I was an adventurer.",
-        "I need to be the most famous adventurer alive."
-      ],
-      "flaw": [
-        "Adventuring has either made me jaded and pessimistic, or paranoid and jumpy.",
-        "I am almost dangerously greedy.",
-        "I cannot resist a drink, or the folk who serve it.",
-        "I egregiously underestimate or overestimate the risks a job represents.",
-        "I cannot maintain meaningful relationships.",
-        "I cannot manage money to save my life."
-      ],
-      "credit": "https://www.dandwiki.com/wiki/Adventurer_(5e_Background)"
-    },
-    {
-      "title": "Almost the Chosen One",
-      "description": "Thousands of years ago a prophecy foretold of the person that would bring light and justice to the world. Being born under just the right combination of stars, with the perfect birthmark, and an odd color to their eyes and it's your twin sibling. You ran away because <runaway>",
-      "skillProficiencies": [
-        " I mean, it's your sibling that's important, not you. No ones cares, just pick two"
-      ],
-      "Tool Proficiencies": ["Any one of your choice"],
-      "languages": [
-        "Any one of your choice"
-      ],
-      "extras": [
-        {
-          "description": {
-            "runaway":[
-              "You want to prove to everyone that there's been a mistake and you're really the chosen one.",
-              "The family dog (the only one who cared about you) has recently passed.",
-              "Your true love set out after your sibling.",
-              "Your parents told you to start paying rent or leave.",
-              "You were involved in a horrible accident, and separated from your family. After months of travel you finally returned home and no one had noticed you were gone.",
-              "You really are a loser and you went off chasing your much cooler sibling."
-            ]
-          }
+      }
+    ],
+    "equipment": "One weapon or armor worth no more than 10 gp, a set of traveler's clothes, a small pouch containing 5gp, a shovel, a crowbar, one trophy, (such as a trinket from PHB p.160) one cloak, and a bedroll",
+    "feature": "Beloved Outcast - You can always find a job, but somehow you can never find a place to sleep. People know you`re good for the work, but the fact that you are indicates that you`re probably not the sort of person they want to have around. People view adventurers in a mixed light with conflicting values. On the one hand, most adventurers are nothing more than murderous, grave-robbing vagrants. On the other hand, who else will rob that grave and murder those local bullies for you? Most common folk consider adventurers to be dangerous, unpredictable, and probably insane... But in a world filled with slavers, mad cults, dragons, walking dead, pit fiends, and extradimensional horrors, just about everyone could find a use for a psychotic sell-sword. Adventurers who survive and reach higher renown may find they have a small following of supporters or fans, but even they may cringe at the idea of that adventurer spending an evening in their home. Most adventurers by profession are members of an adventurers guild through which they can readily attain professional work and contacts in the field.",
+    "personalityTrait": [
+      "I speak with an accent nobody recognizes.",
+      "I look at the ceiling every time I enter a room, even if I was just there five seconds ago.",
+      "I assume every job is a trap.",
+      "I take notes about everyone and everything I encounter everywhere I go.",
+      "I leave marks for myself wherever I go, as messages to myself when I return. Their meaning is known only by me.",
+      "I tell stories about my adventures to anyone who will listen. Even tales of woe and disaster are retold with enthusiasm!",
+      "I am more accustomed to life on the road or underground than in a settlement or my actual \"home\".",
+      "I only respect other adventurers."
+    ],
+    "ideal": [
+      "Virtue. I am the sword of virtue for those in need! (Good)",
+      "Curiosity. If the job is interesting, I'm in! (Neutral)",
+      "Control. I'll do the work, but some day I will return with a request... (Evil)",
+      "Justice. I fill the cracks crime slips through. (Lawful)",
+      "Wealth. I'm in it for the money! (Neutral)",
+      "Boredom. Get me away from this boring life! (Chaotic)"
+    ],
+    "bond": [
+      "The things I have with me are everything I have and everything I am.",
+      "The people who raised me made me into an adventurer.",
+      "I am on a quest to obtain some rare or important object.",
+      "I can never linger anywhere for too long, or my secret will catch up to me.",
+      "I cannot remember my past before I was an adventurer.",
+      "I need to be the most famous adventurer alive."
+    ],
+    "flaw": [
+      "Adventuring has either made me jaded and pessimistic, or paranoid and jumpy.",
+      "I am almost dangerously greedy.",
+      "I cannot resist a drink, or the folk who serve it.",
+      "I egregiously underestimate or overestimate the risks a job represents.",
+      "I cannot maintain meaningful relationships.",
+      "I cannot manage money to save my life."
+    ],
+    "credit": "https://www.dandwiki.com/wiki/Adventurer_(5e_Background)"
+  },
+  {
+    "title": "Almost the Chosen One",
+    "description": "Thousands of years ago a prophecy foretold of the person that would bring light and justice to the world. Being born under just the right combination of stars, with the perfect birthmark, and an odd color to their eyes and it's your twin sibling. You ran away because <runaway>",
+    "skillProficiencies": [
+      " I mean, it's your sibling that's important, not you. No ones cares, just pick two"
+    ],
+    "Tool Proficiencies": ["Any one of your choice"],
+    "languages": [
+      "Any one of your choice"
+    ],
+    "extras": [
+      {
+        "description": {
+          "runaway":[
+            "You want to prove to everyone that there's been a mistake and you're really the chosen one.",
+            "The family dog (the only one who cared about you) has recently passed.",
+            "Your true love set out after your sibling.",
+            "Your parents told you to start paying rent or leave.",
+            "You were involved in a horrible accident, and separated from your family. After months of travel you finally returned home and no one had noticed you were gone.",
+            "You really are a loser and you went off chasing your much cooler sibling."
+          ]
         }
-      ],
-      "equipment": "Whatever your sibling didn't take: a second hand adventures kit, like 5 feet of rope, a bedroll that smells slightly of urine, five gold you found, a set of used common clothes, and none of your parents love",
-      "feature": "Sibling of the Chosen One - Due to the status of your sibling, people that recognize you as their sibling, will go out of their way to treat you better. Whether this treatment is because of respect for your sibling or fear of them. People often overlook your small crimes or mishaps as well. Quest givers could give you more money, better items, better quarters and even possibly a position of leadership. Although they do this only because they want you to introduce them to your sibling or that they fear them because of their illegal and evil actions and will want you to smooth things out with your sibling if need be. They do not care about you. They are simply using you to get closer to your sibling. You got abandonement Issues",
-      "personalityTrait": [
-        "I am just as capable as my sibling! I just have to believe in myself! (Note: You are clearly not as capable.)",
-        "If I accomplish enough amazing feats I can make mommy love me!",
-        "Maybe I can find someone tough to accomplish things for me.",
-        "I often pretend to be my sibling.",
-        "I am prone to complaining uncontrollably about the smallest things.",
-        "I automatically assume that everyone is better at everything than me. (In most cases this is correct.)",
-        "I would settle for a girlfriend.",
-        "I am used to being ignored."
-      ],
-      "ideal": [
-        "One day I'll make the world see that prophecies are bullshit. (Any)",
-        "Powerful people shouldn't bully me- I mean the weak. (Lawful)",
-        "One day I want to make my mommy love me.(Good)",
-        "I want to one day gather enough money to pay the rent on my old room. (Neutral)",
-        "If at first you don't succeed, it's probably 'cause you suck. (Chaotic)",
-        "If I can destroy the world before my sibling saves it then I'll finally prove they're not so great. (Evil)"
-      ],
-      "bond": [
-        "I want to kill my sibling and take their place.",
-        "I want to reclaim my true love from my sibling.",
-        "MOMMYYYYY!!!",
-        "If I can't get people to like me, maybe I can get animals to like me.",
-        "I can't let my companions find out how uncool I actually am.",
-        "One day I'll be important enough my sibling will remember my name!"
-      ],
-      "flaw": [
-        "Nothing matters except my mother's love.",
-        "I actually think I am the chosen one. (Note: You are absolutely not the chosen one and are probably going to be eaten by bears.)",
-        "I can't stand people I think are better than me.",
-        "I will desperately pursue every member of the opposite sex I encounter.",
-        "I secretly have deep attractions and feelings for my sibling.",
-        "I follow my sibling around the world ruining things they have fixed.",
-        "I will accept any challenge if it makes me seem cool.",
-        "I'm cowardly and often find myself running from battles, screaming for my sibling's help."
-      ],
-      "credit": "https://www.dandwiki.com/wiki/Almost_the_Chosen_One_(5e_Background)"
-    },
-    {
-      "title": "Guild Graduate",
-      "description": "Am I qualified? I most certainly am! Do I have experience? <experience>",
-      "skillProficiencies": [
-        "Optional proficiency relating to <subjectmatter>"
-      ],
-      "Tool Proficiencies": [
-        "Calligraphy"
-      ],
-      "languages": [
-        3
-      ],
-      "extras": [
-        {
-          "description": {
-            "experience": [
-              "I never did pay much attention in class.",
-              "I've probably read about it!",
-              "Define: Experience...",
-              "Practice makes perfect. Practicing is kind of like experience right?",
-              "I've been on a couple ride-alongs.",
-              "I wrote the books on it."
-            ],
-            "subjectmatter": [
-              "Occult",
-              "Dragon Lore",
-              "Law",
-              "Trade Goods",
-              "Illussion Magic",
-              "Destruction Magic",
-              "Life Magic",
-              "Death Magic",
-              "Religion & Myths",
-              "War History",
-              "Elven History",
-              "Dwarven History",
-              "Drow History",
-              "Orc History",
-              "Tiefling History",
-              "Local History",
-              "Beasts and Animals",
-              "Steampunk Robotics",
-              "Shapeshifting",
-              "Jewelry & Gemstones",
-              "Art Appraisal"
-            ]
-          }
+      }
+    ],
+    "equipment": "Whatever your sibling didn't take: a second hand adventures kit, like 5 feet of rope, a bedroll that smells slightly of urine, five gold you found, a set of used common clothes, and none of your parents love",
+    "feature": "Sibling of the Chosen One - Due to the status of your sibling, people that recognize you as their sibling, will go out of their way to treat you better. Whether this treatment is because of respect for your sibling or fear of them. People often overlook your small crimes or mishaps as well. Quest givers could give you more money, better items, better quarters and even possibly a position of leadership. Although they do this only because they want you to introduce them to your sibling or that they fear them because of their illegal and evil actions and will want you to smooth things out with your sibling if need be. They do not care about you. They are simply using you to get closer to your sibling. You got abandonement Issues",
+    "personalityTrait": [
+      "I am just as capable as my sibling! I just have to believe in myself! (Note: You are clearly not as capable.)",
+      "If I accomplish enough amazing feats I can make mommy love me!",
+      "Maybe I can find someone tough to accomplish things for me.",
+      "I often pretend to be my sibling.",
+      "I am prone to complaining uncontrollably about the smallest things.",
+      "I automatically assume that everyone is better at everything than me. (In most cases this is correct.)",
+      "I would settle for a girlfriend.",
+      "I am used to being ignored."
+    ],
+    "ideal": [
+      "One day I'll make the world see that prophecies are bullshit. (Any)",
+      "Powerful people shouldn't bully me- I mean the weak. (Lawful)",
+      "One day I want to make my mommy love me.(Good)",
+      "I want to one day gather enough money to pay the rent on my old room. (Neutral)",
+      "If at first you don't succeed, it's probably 'cause you suck. (Chaotic)",
+      "If I can destroy the world before my sibling saves it then I'll finally prove they're not so great. (Evil)"
+    ],
+    "bond": [
+      "I want to kill my sibling and take their place.",
+      "I want to reclaim my true love from my sibling.",
+      "MOMMYYYYY!!!",
+      "If I can't get people to like me, maybe I can get animals to like me.",
+      "I can't let my companions find out how uncool I actually am.",
+      "One day I'll be important enough my sibling will remember my name!"
+    ],
+    "flaw": [
+      "Nothing matters except my mother's love.",
+      "I actually think I am the chosen one. (Note: You are absolutely not the chosen one and are probably going to be eaten by bears.)",
+      "I can't stand people I think are better than me.",
+      "I will desperately pursue every member of the opposite sex I encounter.",
+      "I secretly have deep attractions and feelings for my sibling.",
+      "I follow my sibling around the world ruining things they have fixed.",
+      "I will accept any challenge if it makes me seem cool.",
+      "I'm cowardly and often find myself running from battles, screaming for my sibling's help."
+    ],
+    "credit": "https://www.dandwiki.com/wiki/Almost_the_Chosen_One_(5e_Background)"
+  },
+  {
+    "title": "Guild Graduate",
+    "description": "Am I qualified? I most certainly am! Do I have experience? <experience>",
+    "skillProficiencies": [
+      "Optional proficiency relating to <subjectmatter>"
+    ],
+    "Tool Proficiencies": [
+      "Calligraphy"
+    ],
+    "languages": [
+      3
+    ],
+    "extras": [
+      {
+        "description": {
+          "experience": [
+            "I never did pay much attention in class.",
+            "I've probably read about it!",
+            "Define: Experience...",
+            "Practice makes perfect. Practicing is kind of like experience right?",
+            "I've been on a couple ride-alongs.",
+            "I wrote the books on it."
+          ],
+          "subjectmatter": [
+            "Occult",
+            "Dragon Lore",
+            "Law",
+            "Trade Goods",
+            "Illussion Magic",
+            "Destruction Magic",
+            "Life Magic",
+            "Death Magic",
+            "Religion & Myths",
+            "War History",
+            "Elven History",
+            "Dwarven History",
+            "Drow History",
+            "Orc History",
+            "Tiefling History",
+            "Local History",
+            "Beasts and Animals",
+            "Steampunk Robotics",
+            "Shapeshifting",
+            "Jewelry & Gemstones",
+            "Art Appraisal"
+          ]
         }
-      ],
-      "equipment": "Pen & Quill, Diary, Scrolls on studied subject matter",
-      "feature": "Subject matter expert. Advantage on History and Arcana knowledge checks. Including Insight checks if relating to the function of a device.",
-      "personalityTrait": [
-        "Up to the eyeballs in debt.",
-        "Has an exam coming up. Need to study!",
-        "Has won many awards for hard work in <subjectmatter>."
-      ],
-      "ideal": [
-        "Happiness and peace can be achieved through knowledge. The secret must be somewhere in these texts... (Good)",
-        "One day I'll be a professor just like my father and his father before him.(Neutral)",
-        "Knowledge is power and with that power I'll be calling the shots. (Evil)",
-        "For the good of my kingdom I must master my pursuits and use my knowledge for the betterment of it's people.(Lawful)",
-        "Knowledge should be shared and free to everyone. Where there are secrets I must document them and unveil the truth. (Neutral)",
-        "They don't want you to know, but the stories are true. All of them. I'll get to the bottom of this!(Chaotic)"
-      ],
-      "bond": [
-        "I'm not a just a nerd and I'm out to prove it.",
-        "Collector of things. Bring me anything related to <subjectmatter> and I'll make it worth your while.",
-        "One day I'll be the one people read about."
-      ],
-      "flaw": [
-        "My passion in my work is more important than anything and anyone else.",
-        "Banished from my guild one day I'll have my revenge.",
-        "Comes off as that crazy person reading to themselves out loud in the corner of the library.",
-        "Totally faking it. Educated guesses and flying by the seat of my pants."
-      ],
-      "credit": "Joe Wroten (sharpshark28@gmail.com)"
-    }
-  ]
+      }
+    ],
+    "equipment": "Pen & Quill, Diary, Scrolls on studied subject matter",
+    "feature": "Subject matter expert. Advantage on History and Arcana knowledge checks. Including Insight checks if relating to the function of a device.",
+    "personalityTrait": [
+      "Up to the eyeballs in debt.",
+      "Has an exam coming up. Need to study!",
+      "Has won many awards for hard work in <subjectmatter>."
+    ],
+    "ideal": [
+      "Happiness and peace can be achieved through knowledge. The secret must be somewhere in these texts... (Good)",
+      "One day I'll be a professor just like my father and his father before him.(Neutral)",
+      "Knowledge is power and with that power I'll be calling the shots. (Evil)",
+      "For the good of my kingdom I must master my pursuits and use my knowledge for the betterment of it's people.(Lawful)",
+      "Knowledge should be shared and free to everyone. Where there are secrets I must document them and unveil the truth. (Neutral)",
+      "They don't want you to know, but the stories are true. All of them. I'll get to the bottom of this!(Chaotic)"
+    ],
+    "bond": [
+      "I'm not a just a nerd and I'm out to prove it.",
+      "Collector of things. Bring me anything related to <subjectmatter> and I'll make it worth your while.",
+      "One day I'll be the one people read about."
+    ],
+    "flaw": [
+      "My passion in my work is more important than anything and anyone else.",
+      "Banished from my guild one day I'll have my revenge.",
+      "Comes off as that crazy person reading to themselves out loud in the corner of the library.",
+      "Totally faking it. Educated guesses and flying by the seat of my pants."
+    ],
+    "credit": "Joe Wroten (sharpshark28@gmail.com)"
+  }
+]
 }
