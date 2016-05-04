@@ -18,6 +18,7 @@
   "homepage": "https://github.com/paulvmoreau/BeltFedNPCs#readme",
   "dependencies": {
     "express": "^4.13.4",
+    "lodash": "^4.11.2",
     "require-dir": "^0.3.0"
   }
 }

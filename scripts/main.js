@@ -36,7 +36,7 @@ function load(){
   var genBtn = document.getElementById('generateCharacterBtn');
   genBtn.disabled = true;
   loadAdditionalData(function(){
-    generator = new NPCGenerator(additionalData);
+    generator = new NPCGenerator(additionalData, _);
     genBtn.disabled = false;
   });
 }
