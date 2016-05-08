@@ -19,8 +19,10 @@
   }
 }
 
- function NPCGenerator(sources){
-
+ function NPCGenerator(sources, lodash){
+   if(typeof _ === "undefined"){
+     var _ = lodash;
+   }
    //race
    this.races = {
      'Human': 50,
@@ -154,4 +156,8 @@
   };
 
   _.merge(this, sources);
+ }
+
+ if(typeof module !== "undefined" && module.exports){
+   module.exports = NPCGenerator;
  }

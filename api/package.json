@@ -1,0 +1,24 @@
+{
+  "name": "beltfednpcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulvmoreau/BeltFedNPCs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulvmoreau/BeltFedNPCs/issues"
+  },
+  "homepage": "https://github.com/paulvmoreau/BeltFedNPCs#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.11.2",
+    "require-dir": "^0.3.0"
+  }
+}
