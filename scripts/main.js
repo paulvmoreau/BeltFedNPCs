@@ -55,6 +55,7 @@ function generateCharacter(){
   document.getElementById('background-ideal').textContent = data.ideal;
   document.getElementById('background-bond').textContent = data.bond;
   document.getElementById('background-flaw').textContent = data.flaw;
+  document.getElementById('background-credit').textContent = data.credit;
 
   //build quirks string
   function compileQuirks(){

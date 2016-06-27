@@ -291,6 +291,7 @@ function NPCGenerator(sources, lodash){
       ideal: background.ideal[Math.floor(Math.random()*background.ideal.length)],
       bond: background.bond[Math.floor(Math.random()*background.bond.length)],
       flaw: background.flaw[Math.floor(Math.random()*background.flaw.length)],
+      credit: background.credit,
     };
 
     if(typeof background.extras !== 'undefined'){
