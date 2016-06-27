@@ -65,6 +65,22 @@ function generateCharacter(){
     if(data.predispositions !== 'None'){
       quirksList +='<li>' + data.predispositions +'</li>';
     }
+    if(data.vocalQuirks.length > 0){
+      for(var i=0; i<data.vocalQuirks.length;i++ ){
+        if(!data.vocalQuirks[i]){
+          console.log("ping");
+        }
+        quirksList +='<li>' + data.vocalQuirks[i] +'</li>';
+      }
+    }
+    if(data.physicalQuirks.length > 0){
+      for(var i=0; i<data.physicalQuirks.length;i++ ){
+        if(!data.physicalQuirks[i]){
+          console.log("ping");
+        }
+        quirksList +='<li>' + data.physicalQuirks[i] +'</li>';
+      }
+    }
     quirksList +='</ul>';
     document.getElementById('background-quirks').innerHTML = quirksList;
   }

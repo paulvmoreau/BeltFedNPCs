@@ -183,9 +183,9 @@
   },
   {
     "title": "Guild Graduate",
-    "description": "Am I qualified? I most certainly am! Do I have experience? <experience>",
+    "description": "Studied in <subjectmatter>. Am I qualified? I most certainly am! Do I have experience? <experience>",
     "skillProficiencies": [
-      "Optional proficiency relating to <subjectmatter>"
+      "Optional proficiency relating to their studies"
     ],
     "Tool Proficiencies": [
       "Calligraphy"
@@ -235,7 +235,7 @@
     "personalityTrait": [
       "Up to the eyeballs in debt.",
       "Has an exam coming up. Need to study!",
-      "Has won many awards for hard work in <subjectmatter>."
+      "Has won many awards for hard work in my field."
     ],
     "ideal": [
       "Happiness and peace can be achieved through knowledge. The secret must be somewhere in these texts... (Good)",
@@ -247,7 +247,7 @@
     ],
     "bond": [
       "I'm not a just a nerd and I'm out to prove it.",
-      "Collector of things. Bring me anything related to <subjectmatter> and I'll make it worth your while.",
+      "Collector of things. Bring me anything related to my field of study and I'll make it worth your while.",
       "One day I'll be the one people read about."
     ],
     "flaw": [
