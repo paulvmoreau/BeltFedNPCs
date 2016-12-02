@@ -38,7 +38,18 @@ function load(){
   loadAdditionalData(function(){
     generator = new NPCGenerator(additionalData, _);
     genBtn.disabled = false;
+    generateCharacter();
+    showCharacter();
   });
+}
+
+function showCharacter(){
+  var loadingElement = document.getElementById('loading');
+
+  if(loadingElement) {
+    loadingElement.outerHTML = '';
+    document.getElementById('character').className += ' loaded';
+  }
 }
 
 function generateCharacter(){

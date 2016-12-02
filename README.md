@@ -1,16 +1,23 @@
 # BeltFedNPCs
-Used to quickly generate NPC's with backgrounds and quirks.<br>
-NPC is also given a random class and race. Weighted random is used to balance the frequency of race occurances, favoring humans to appear the most. <br>
-Program pulls data from names.json and backgrounds.json. <br>
-First name is pulled from a json object found in names.json. Feel free to add more to the list, but I would avise <br>
-to keep them gender neutral.<br>
-Last name is randomly generated from two arrays found in names.json. feel free to add to the lists as you wish.<br>  
-I plan on adding more quirks and maneurisms as I go, but if you have any ideas then that would be great as well. <br>
-I also plan on developing a precompiler that would allow for each background to exist as it's own json file that <br>
-get collected together into a single file at compile.<br>
-<br>
-<br>
-Format for adding additional backgrounds to the backgrounds.json file:<br>
+Used to quickly generate NPC's with backgrounds and quirks.
+
+[Check it out!](http://paulvmoreau.github.io/BeltFedNPCs/)
+
+## Dev Notes
+
+A NPC is also given a random class and race. Weighted random is used to balance the frequency of race occurances, favoring humans to appear the most.
+Program pulls data from `names.json` and `backgrounds.json`.
+
+First name is pulled from a json object found in `names.json`. Feel free to add more to the list, but I would avise to keep them gender neutral.
+
+Last name is randomly generated from two arrays found in `names.json`. feel free to add to the lists as you wish.
+
+I plan on adding more quirks and maneurisms as I go, but if you have any ideas then that would be great as well.
+
+I also plan on developing a precompiler that would allow for each background to exist as it's own json file that get collected together into a single file at compile.
+
+Format for adding additional backgrounds to the backgrounds.json file:
+
 ```json
 {
       "title": "Background Title",
@@ -50,7 +57,7 @@ Format for adding additional backgrounds to the backgrounds.json file:<br>
         "Place any number of possible ideals here",
         "One will be selected at random",
         "be creative, but the program will only pick one",
-        "be sure to include alignment as needed",
+        "be sure to include alignment as needed"
       ],
       "bond": [
         "Place any number of possible traits here",

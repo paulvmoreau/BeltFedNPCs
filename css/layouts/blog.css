@@ -89,6 +89,13 @@ h3 {
     padding: 2em 1em 0;
 }
 
+#character {
+  transition: opacity 1s;
+}
+#character:not(.loaded) {
+  opacity: 0;
+}
+
 .post {
     padding-bottom: 2em;
 }
